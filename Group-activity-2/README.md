@@ -245,7 +245,7 @@ And, following is the JavaScript code that triggers it:
 
 ```js
 app.get('/people', function (req, res) {
-  res.render('people', californiapeople);
+  res.render('people', data);
 });
 ```
 
